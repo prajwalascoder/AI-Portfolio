@@ -1,6 +1,7 @@
 import "../../styles/hero.css";
 import profileImg from "../../assets/profile.jpg";
 import { useState, useEffect, useRef } from "react";
+import { askAI } from "../../services/api"; // ✅ use API service
 
 function Hero() {
   const [question, setQuestion] = useState("");
@@ -9,11 +10,11 @@ function Hero() {
   const canvasRef = useRef(null);
   const typingIntervalRef = useRef(null);
 
-  const askAI = async (customQuestion) => {
+  // ✅ RENAMED (no collision)
+  const handleAsk = async (customQuestion) => {
     const finalQuestion = customQuestion || question;
     if (!finalQuestion.trim()) return;
 
-    // 🔥 stop previous typing
     if (typingIntervalRef.current) {
       clearInterval(typingIntervalRef.current);
       typingIntervalRef.current = null;
@@ -21,13 +22,7 @@ function Hero() {
 
     setDisplayedAnswer("");
 
-    const res = await fetch("http://localhost:5000/api/chat", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: finalQuestion })
-    });
-
-    const data = await res.json();
+    const data = await askAI(finalQuestion); // ✅ API call
     const fullText = String(data.reply || "");
 
     let i = 0;
@@ -47,7 +42,6 @@ function Hero() {
     if (!canvas) return;
 
     const ctx = canvas.getContext("2d");
-
     let width = window.innerWidth;
     let height = window.innerHeight;
 
@@ -121,22 +115,22 @@ function Hero() {
         </div>
 
         <div className="hero-boxes">
-          <div className="hero-box" onClick={() => askAI("Tell me about yourself, your background and skills")}>
+          <div className="hero-box" onClick={() => handleAsk("Tell me about yourself, your background and skills")}>
             <span className="emoji-slot">👤</span>
             <span>Me</span>
           </div>
 
-          <div className="hero-box" onClick={() => askAI("Tell me about your projects")}>
+          <div className="hero-box" onClick={() => handleAsk("Tell me about your projects")}>
             <span className="emoji-slot">💼</span>
             <span>Projects</span>
           </div>
 
-          <div className="hero-box" onClick={() => askAI("What skills do you have as a developer")}>
+          <div className="hero-box" onClick={() => handleAsk("What skills do you have as a developer")}>
             <span className="emoji-slot">🧠</span>
             <span>Skills</span>
           </div>
 
-          <div className="hero-box" onClick={() => askAI("How can someone contact you? Give your contact details or social profiles")}>
+          <div className="hero-box" onClick={() => handleAsk("How can someone contact you? Give your contact details or social profiles")}>
             <span className="emoji-slot">📞</span>
             <span>Contact</span>
           </div>
@@ -157,12 +151,12 @@ function Hero() {
               onChange={(e) => setQuestion(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
-                  e.preventDefault();   // ✅ THIS FIXES IT
-                  askAI();
+                  e.preventDefault();
+                  handleAsk();
                 }
               }}
             />
-            <button onClick={() => askAI()} className="send-btn">
+            <button onClick={() => handleAsk()} className="send-btn">
               <span style={{ color: "#fff" }}>➜</span>
             </button>
           </div>

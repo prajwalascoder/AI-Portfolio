@@ -1,8 +1,11 @@
-import axios from "axios";
+const API_BASE = process.env.REACT_APP_API_URL;
 
-const API_URL = "http://localhost:5000/api/chat";
+export async function askAI(message) {
+  const res = await fetch(`${API_BASE}/api/chat`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message })
+  });
 
-export const sendMessage = async (message) => {
-  const response = await axios.post(API_URL, { message });
-  return response.data.reply;
-};
+  return res.json();
+}

@@ -2,7 +2,7 @@ import { useState } from "react";
 import Hero from "./components/hero/Hero";
 import ChatWindow from "./components/chat/chatwindow";
 import ChatInput from "./components/chat/chatinput";
-import { sendMessage } from "./services/api";
+import { askAI } from "./services/api";
 import "./styles/hero.css";
 import "./styles/chat.css";
 
@@ -19,7 +19,7 @@ function App() {
     setLoading(true);
 
     try {
-      const reply = await sendMessage(text);
+      const reply = await askAI(text);
       setMessages((prev) => [...prev, { role: "assistant", content: reply }]);
     } catch (e) {
       setMessages((prev) => [
