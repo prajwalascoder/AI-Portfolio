@@ -1,0 +1,30 @@
+{
+  "internships": [
+    {
+      "company": "Scontinent Technologies",
+      "role": "Frontend Developer Intern",
+      "status": "Completed",
+      "description": "Focused on frontend development using React.",
+      "responsibilities": [
+        "Built UI components using React",
+        "Created responsive layouts",
+        "Worked with APIs for frontend integration"
+      ],
+      "learning": "This is where I learned React and developed strong frontend fundamentals."
+    },
+    {
+      "company": "Bizpel Connecting Dots Pvt. Ltd.",
+      "role": "Full Stack Developer Intern",
+      "status": "Currently Working",
+      "description": "Working on both frontend and backend systems for production-style applications.",
+      "responsibilities": [
+        "Developing frontend features",
+        "Building backend APIs",
+        "Working with databases",
+        "Optimizing application logic"
+      ],
+      "learning": "I am learning complete end-to-end application development, including architecture and data handling."
+    }
+  ],
+  "overallExperience": "Hands-on experience in frontend and full stack development through real-world internships."
+}

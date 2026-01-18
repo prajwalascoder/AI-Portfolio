@@ -1,0 +1,17 @@
+{
+  "frontend": ["React", "HTML", "CSS", "JavaScript"],
+  "backend": ["Node.js", "Express"],
+  "database": ["MongoDB", "MySQL"],
+  "ai_ml": ["Basic machine learning concepts", "AI-based application integration"],
+  "creative": ["Video editing", "Content creation", "Visual storytelling"],
+  "tools": ["Git", "Postman", "VS Code"],
+  "softSkills": ["Problem solving", "Fast learner", "Communication", "Time management"],
+  "familiarWith": [
+    "REST APIs",
+    "Authentication and JWT",
+    "Full stack architecture",
+    "Admin dashboards",
+    "Video editing workflows",
+    "Social media content optimization"
+  ]
+}

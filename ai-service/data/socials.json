@@ -1,0 +1,22 @@
+{
+  "x": {
+    "platform": "X (Twitter)",
+    "handle": "@johnwick_in",
+    "description": "I’m very active on X where I talk about politics, science, human rights, and social issues."
+  },
+  "instagram": {
+    "platform": "Instagram",
+    "handle": "@prajwalsocial",
+    "description": "I occasionally share personal content, interests, and creative work."
+  },
+  "linkedin": {
+    "platform": "LinkedIn",
+    "handle": "https://linkedin.com/in/prajwalkmascoder",
+    "description": "My professional profile with education, experience, and projects."
+  },
+  "github": {
+    "platform": "GitHub",
+    "handle": "https://github.com/prajwalascoder",
+    "description": "Where I host my projects and open-source work."
+  }
+}

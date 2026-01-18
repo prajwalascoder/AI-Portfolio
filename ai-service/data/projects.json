@@ -1,0 +1,28 @@
+[
+  {
+    "title": "AI Portfolio Website",
+    "description": "A personal portfolio integrated with AI where users can ask questions about my life, skills, projects, education, and values.",
+    "purpose": "To present my profile in a unique, interactive, and human way.",
+    "tech": ["React", "Node.js", "Express", "AI APIs"],
+    "features": [
+      "Chat-based interface",
+      "Personal memory and storytelling",
+      "Responsive UI"
+    ],
+    "learning": "Learned how to integrate AI into web applications and structure personal data into intelligent systems."
+  },
+  {
+    "title": "HiveFund – AI Based Crowdfunding Platform",
+    "description": "A crowdfunding platform that uses AI, ML, and a weighted algorithm to detect fraudulent campaigns and provide trust ratings.",
+    "problem": "Many platforms lack systems to identify fake or risky campaigns.",
+    "solution": "HiveFund evaluates campaigns using AI models and weighted scoring to flag suspicious content and assign trust levels for admins and donors.",
+    "tech": ["React", "Node.js", "Express", "MongoDB", "AI/ML"],
+    "features": [
+      "Fraud detection using AI",
+      "Weighted trust scoring",
+      "Admin dashboard with ratings",
+      "Donor-facing trust indicators"
+    ],
+    "learning": "Gained experience building data-driven platforms and integrating AI logic into real-world systems."
+  }
+]

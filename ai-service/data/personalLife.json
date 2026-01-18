@@ -1,0 +1,29 @@
+{
+  "family": {
+    "about": "I come from a supportive family that always encouraged education, discipline, and growth.",
+    "influence": "My parents shaped my mindset to stay grounded, work hard, and think long-term."
+  },
+  "personality": {
+    "enthusiasm": "I’m genuinely enthusiastic about tech, creativity, and building things that matter.",
+    "traits": ["Curious", "Focused", "Expressive", "Detail-oriented"]
+  },
+  "creativeInterests": {
+    "videoEditing": {
+      "interest": "I love video editing and enjoy shaping raw footage into meaningful stories.",
+      "why": "It combines creativity with structure, just like software development."
+    }
+  },
+  "lifestyle": {
+    "phone": {
+      "model": "iPhone",
+      "description": "I like clean design, smooth performance, and well-built products."
+    }
+  },
+  "car": {
+    "model": "Volkswagen Polo 2018",
+    "type": "Hatchback",
+    "whyILoveIt": "It’s solid, well-engineered, and fun to drive.",
+    "drivingExperience": "Tight steering, confident handling, sporty yet practical.",
+    "whatItSaysAboutMe": "I value quality and engineering over just flashy design."
+  }
+}

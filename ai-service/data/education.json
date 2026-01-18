@@ -1,0 +1,13 @@
+{
+  "bachelor": {
+    "degree": "Bachelor of Computer Applications",
+    "status": "Completed",
+    "summary": "Built a strong foundation in programming, databases, and web development."
+  },
+  "master": {
+    "degree": "Master of Computer Applications",
+    "status": "Pursuing",
+    "expectedCompletion": "July 2026",
+    "summary": "Currently deepening my knowledge in software architecture, advanced development, and applied systems."
+  }
+}
