@@ -135,9 +135,9 @@ function Hero() {
             <span>Contact</span>
           </div>
 
-          <a href="/resume.pdf" download className="hero-box">
-            <span className="emoji-slot">📄</span>
-            <span>Resume</span>
+          <a href="/resume.pdf" target="_blank" rel="noreferrer" className="hero-box">
+             <span className="emoji-slot">📄</span>
+             <span>Resume</span>
           </a>
         </div>
 
