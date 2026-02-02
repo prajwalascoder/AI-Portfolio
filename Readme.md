@@ -3,7 +3,7 @@
 An AI-powered personal portfolio that represents **me as a digital identity**.  
 Instead of just listing projects and skills, this platform lets people **talk to my AI version** and ask anything about my life, journey, experience, values, and interests.
 
-This project combines **Full Stack Development + AI Integration + Personal Storytelling** into one interactive system.
+project combines **Full Stack Development + AI Integration + Personal Storytelling** into one interactive system.
 
 ---
 
