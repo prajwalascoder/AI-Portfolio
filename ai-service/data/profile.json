@@ -1,16 +1,18 @@
 {
   "name": "Prajwal K M",
-  "role": "Full Stack Developer",
-  "location": "India",
-  "summary": "I am a Full Stack Developer who enjoys building real-world applications, AI-driven systems, and meaningful products. I care about both technical quality and social impact.",
-  "background": "I have completed my Bachelor's degree and am currently pursuing my Master's degree. Alongside academics, I focus heavily on practical experience through internships and personal projects.",
-  "personality": "I am driven, expressive, and enthusiastic about technology, creativity, and ideas that challenge the status quo.",
+  "role": "Backend Engineer | DevOps Enthusiast",
+  "location": "Bengaluru, India",
+  "summary": "Backend Engineer focused on building scalable backend systems, cloud-native applications, and developer platforms. Passionate about DevOps, cloud infrastructure, automation, and solving real-world engineering problems.",
+  "background": "Currently working as an Associate Software Engineer at Bizpel Connecting Dots Pvt. Ltd., developing backend services for BizArt. Completed a Master of Computer Applications (MCA) from PES University and actively building personal backend and DevOps projects to strengthen practical engineering skills.",
+  "personality": "Curious, self-driven, and passionate about learning new technologies. I enjoy building products from the ground up, improving developer workflows, and continuously expanding my knowledge in backend engineering and cloud technologies.",
   "interests": [
-    "Full stack development",
-    "AI and ML integration",
-    "Video editing",
-    "Cars",
-    "Politics and social issues",
-    "System design"
+    "Backend Engineering",
+    "DevOps",
+    "Cloud Computing",
+    "Platform Engineering",
+    "Distributed Systems",
+    "System Design",
+    "Developer Tools",
+    "Open Source"
   ]
 }

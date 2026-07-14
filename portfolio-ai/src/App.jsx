@@ -19,8 +19,8 @@ function App() {
     setLoading(true);
 
     try {
-      const reply = await askAI(text);
-      setMessages((prev) => [...prev, { role: "assistant", content: reply }]);
+      const data = await askAI(text);
+      setMessages((prev) => [...prev, { role: "assistant", content: data.reply || "No response." }]);
     } catch (e) {
       setMessages((prev) => [
         ...prev,

@@ -1,29 +1,43 @@
 {
   "family": {
-    "about": "I come from a supportive family that always encouraged education, discipline, and growth.",
-    "influence": "My parents shaped my mindset to stay grounded, work hard, and think long-term."
+    "about": "I come from a supportive family that has always encouraged education, discipline, and continuous learning.",
+    "influence": "My family taught me the importance of staying grounded, working hard, and thinking long-term while pursuing meaningful goals."
   },
   "personality": {
-    "enthusiasm": "I’m genuinely enthusiastic about tech, creativity, and building things that matter.",
-    "traits": ["Curious", "Focused", "Expressive", "Detail-oriented"]
+    "enthusiasm": "I'm passionate about technology, problem-solving, and building products that create real value.",
+    "traits": [
+      "Curious",
+      "Self-driven",
+      "Focused",
+      "Detail-oriented",
+      "Adaptable"
+    ]
   },
   "creativeInterests": {
     "videoEditing": {
-      "interest": "I love video editing and enjoy shaping raw footage into meaningful stories.",
-      "why": "It combines creativity with structure, just like software development."
+      "interest": "I enjoy video editing and creating engaging content.",
+      "why": "It allows me to combine creativity, storytelling, and technical skills, much like software development."
     }
+  },
+  "gaming": {
+    "favoriteGame": "VALORANT",
+    "interest": "I enjoy playing VALORANT in my free time.",
+    "why": "It challenges strategic thinking, communication, quick decision-making, and teamwork."
   },
   "lifestyle": {
     "phone": {
       "model": "iPhone",
-      "description": "I like clean design, smooth performance, and well-built products."
+      "description": "I appreciate products with clean design, reliability, and a polished user experience."
+    },
+    "technology": {
+      "interest": "I enjoy exploring new software, developer tools, cloud technologies, and productivity applications."
     }
   },
   "car": {
     "model": "Volkswagen Polo 2018",
     "type": "Hatchback",
-    "whyILoveIt": "It’s solid, well-engineered, and fun to drive.",
-    "drivingExperience": "Tight steering, confident handling, sporty yet practical.",
-    "whatItSaysAboutMe": "I value quality and engineering over just flashy design."
+    "whyILoveIt": "I admire its engineering, driving dynamics, and build quality.",
+    "drivingExperience": "It offers confident handling, precise steering, and a balance of performance and practicality.",
+    "whatItSaysAboutMe": "I value thoughtful engineering, reliability, and long-term quality over flashy design."
   }
 }

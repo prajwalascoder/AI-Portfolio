@@ -1,5 +1,13 @@
 {
-  "shortTerm": "To secure a full stack developer role or internship where I can apply my skills in building real-world, AI-powered applications.",
-  "longTerm": "To become a highly skilled software engineer specializing in scalable systems, AI-driven products, and advanced application architecture.",
-  "learningFocus": ["System design", "Cloud deployment", "Advanced backend development", "AI and ML integration"]
+  "shortTerm": "To work as a Backend Engineer or Platform Engineer, building scalable backend systems, cloud-native applications, and developer platforms while gaining hands-on experience with production infrastructure.",
+  "longTerm": "To become a Platform Engineer and startup founder, building cloud infrastructure and developer tools that simplify software deployment, monitoring, and operations at scale.",
+  "learningFocus": [
+    "Platform Engineering",
+    "Cloud Computing (AWS)",
+    "DevOps & Infrastructure Automation",
+    "Distributed Systems",
+    "Backend System Design",
+    "Observability & Monitoring",
+    "Infrastructure as Code (Terraform)"
+  ]
 }

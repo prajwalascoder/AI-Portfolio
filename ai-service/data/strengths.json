@@ -1,9 +1,19 @@
 {
   "technical": [
-    "Strong full stack development skills",
-    "AI-integrated application building",
-    "Clean API and system design"
+    "Backend application development using Node.js, TypeScript, and Express.js",
+    "Designing REST APIs and scalable backend services",
+    "Cloud-native application development and DevOps practices",
+    "Database design with MongoDB and PostgreSQL",
+    "Real-time applications using WebSockets and Socket.IO",
+    "Containerization, CI/CD, and infrastructure automation"
   ],
-  "personal": ["Highly motivated", "Expressive", "Detail-oriented", "Consistent learner"],
-  "differentiator": "I combine full stack development, creativity, and strong personal values to build meaningful, intelligent systems."
+  "personal": [
+    "Self-driven",
+    "Curious",
+    "Detail-oriented",
+    "Continuous learner",
+    "Problem solver",
+    "Collaborative"
+  ],
+  "differentiator": "I combine backend engineering, cloud technologies, and DevOps practices to build scalable applications and developer-focused tools while continuously learning modern software engineering principles."
 }

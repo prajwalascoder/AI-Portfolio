@@ -1,17 +1,82 @@
 {
-  "frontend": ["React", "HTML", "CSS", "JavaScript"],
-  "backend": ["Node.js", "Express"],
-  "database": ["MongoDB", "MySQL"],
-  "ai_ml": ["Basic machine learning concepts", "AI-based application integration"],
-  "creative": ["Video editing", "Content creation", "Visual storytelling"],
-  "tools": ["Git", "Postman", "VS Code"],
-  "softSkills": ["Problem solving", "Fast learner", "Communication", "Time management"],
-  "familiarWith": [
+  "frontend": [
+    "React.js",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "backend": [
+    "Node.js",
+    "Express.js",
+    "NestJS",
     "REST APIs",
-    "Authentication and JWT",
-    "Full stack architecture",
-    "Admin dashboards",
-    "Video editing workflows",
-    "Social media content optimization"
+    "Socket.IO",
+    "JWT Authentication",
+    "OAuth 2.0"
+  ],
+  "database": [
+    "MongoDB",
+    "MongoDB Atlas",
+    "PostgreSQL",
+    "Redis"
+  ],
+  "cloud": [
+    "AWS EC2",
+    "AWS S3",
+    "AWS IAM",
+    "CloudFront"
+  ],
+  "devops": [
+    "Docker",
+    "Terraform",
+    "GitHub Actions",
+    "Jenkins",
+    "Linux"
+  ],
+  "monitoring": [
+    "Prometheus",
+    "Grafana"
+  ],
+  "api_security": [
+    "OpenAPI (Swagger)",
+    "JWT",
+    "Rate Limiting"
+  ],
+  "tools": [
+    "Git",
+    "GitHub",
+    "Postman",
+    "VS Code"
+  ],
+  "computerScience": [
+    "Data Structures & Algorithms",
+    "Object-Oriented Programming",
+    "DBMS",
+    "Operating Systems",
+    "Computer Networks",
+    "System Design"
+  ],
+  "softSkills": [
+    "Problem Solving",
+    "Fast Learner",
+    "Communication",
+    "Team Collaboration",
+    "Time Management",
+    "Analytical Thinking"
+  ],
+  "familiarWith": [
+    "Backend Architecture",
+    "Cloud Deployment",
+    "CI/CD Pipelines",
+    "Real-Time Communication",
+    "Authentication & Authorization",
+    "REST API Design",
+    "Database Design",
+    "Containerization",
+    "Infrastructure as Code",
+    "Observability & Monitoring",
+    "Agile Development",
+    "Git Workflows"
   ]
 }

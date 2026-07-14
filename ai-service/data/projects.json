@@ -1,28 +1,121 @@
 [
   {
     "title": "AI Portfolio Website",
-    "description": "A personal portfolio integrated with AI where users can ask questions about my life, skills, projects, education, and values.",
-    "purpose": "To present my profile in a unique, interactive, and human way.",
-    "tech": ["React", "Node.js", "Express", "AI APIs"],
-    "features": [
-      "Chat-based interface",
-      "Personal memory and storytelling",
-      "Responsive UI"
+    "description": "An interactive portfolio website powered by AI, allowing visitors to learn about my background, experience, projects, and skills through a conversational interface.",
+    "purpose": "To showcase my profile in a unique and engaging way using AI.",
+    "tech": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "AI APIs"
     ],
-    "learning": "Learned how to integrate AI into web applications and structure personal data into intelligent systems."
+    "features": [
+      "AI-powered chat interface",
+      "Personal knowledge base",
+      "Responsive UI",
+      "Interactive project showcase"
+    ],
+    "learning": "Learned how to integrate AI into web applications and organize personal information into an intelligent conversational system."
   },
   {
-    "title": "HiveFund – AI Based Crowdfunding Platform",
-    "description": "A crowdfunding platform that uses AI, ML, and a weighted algorithm to detect fraudulent campaigns and provide trust ratings.",
-    "problem": "Many platforms lack systems to identify fake or risky campaigns.",
-    "solution": "HiveFund evaluates campaigns using AI models and weighted scoring to flag suspicious content and assign trust levels for admins and donors.",
-    "tech": ["React", "Node.js", "Express", "MongoDB", "AI/ML"],
-    "features": [
-      "Fraud detection using AI",
-      "Weighted trust scoring",
-      "Admin dashboard with ratings",
-      "Donor-facing trust indicators"
+    "title": "HiveFund – AI Powered Crowdfunding Platform",
+    "description": "A full-stack crowdfunding platform with AI-assisted trust scoring to help identify suspicious campaigns and improve transparency.",
+    "problem": "Crowdfunding platforms often struggle to identify fraudulent or low-trust campaigns.",
+    "solution": "Built an AI-assisted trust scoring system using weighted algorithms to help administrators and donors evaluate campaign credibility.",
+    "tech": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TypeScript",
+      "JWT",
+      "Razorpay",
+      "Machine Learning",
+      "Docker"
     ],
-    "learning": "Gained experience building data-driven platforms and integrating AI logic into real-world systems."
+    "features": [
+      "Campaign creation and management",
+      "Secure authentication with JWT",
+      "Online donations using Razorpay",
+      "AI-based trust scoring",
+      "Role-based access control"
+    ],
+    "learning": "Strengthened my backend development skills while integrating AI concepts, authentication, payment gateways, and database design."
+  },
+  {
+    "title": "CloudCart – Cloud Native E-Commerce Backend",
+    "description": "A scalable backend for an e-commerce platform featuring authentication, product management, inventory, and order processing.",
+    "purpose": "To gain hands-on experience with cloud-native backend development and modern DevOps practices.",
+    "tech": [
+      "NestJS",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "AWS EC2",
+      "AWS S3",
+      "CloudFront",
+      "IAM",
+      "GitHub Actions",
+      "Terraform",
+      "OpenAPI (Swagger)"
+    ],
+    "features": [
+      "JWT authentication and role-based authorization",
+      "Product, inventory, and order management APIs",
+      "Redis caching",
+      "Dockerized deployment",
+      "Automated CI/CD with GitHub Actions",
+      "API documentation using Swagger"
+    ],
+    "learning": "Learned backend architecture, cloud deployment, Infrastructure as Code, caching strategies, CI/CD, and production-oriented API development."
+  },
+  {
+    "title": "RealtimeHub – Real-Time Messaging Platform",
+    "description": "A real-time messaging backend supporting one-to-one and group conversations using WebSockets.",
+    "purpose": "To understand real-time communication, backend architecture, monitoring, and scalable messaging systems.",
+    "tech": [
+      "Node.js",
+      "TypeScript",
+      "Socket.IO",
+      "Redis",
+      "MongoDB",
+      "Docker",
+      "AWS EC2",
+      "Prometheus",
+      "Grafana",
+      "GitHub Actions"
+    ],
+    "features": [
+      "One-to-one and group messaging",
+      "Online presence and typing indicators",
+      "Message delivery acknowledgements",
+      "Redis session management and caching",
+      "REST APIs for authentication and chat management",
+      "Application monitoring with Prometheus and Grafana"
+    ],
+    "learning": "Learned real-time application development, WebSocket communication, caching, monitoring, containerization, and deployment of backend services."
+  },
+  {
+    "title": "InfraPilot",
+    "description": "A platform engineering project focused on simplifying application deployment, infrastructure management, monitoring, and DevOps workflows.",
+    "purpose": "To build a developer platform that makes cloud deployment and infrastructure management easier for startups and engineering teams.",
+    "tech": [
+      "Node.js",
+      "TypeScript",
+      "Docker",
+      "Terraform",
+      "AWS",
+      "Prometheus",
+      "Grafana",
+      "GitHub Actions"
+    ],
+    "features": [
+      "Application deployment automation",
+      "Infrastructure provisioning",
+      "Deployment monitoring",
+      "Centralized developer dashboard",
+      "Observability integration"
+    ],
+    "learning": "Exploring platform engineering, cloud infrastructure, deployment automation, observability, and scalable backend system design."
   }
 ]

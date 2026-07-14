@@ -3,6 +3,29 @@ import profileImg from "../../assets/profile.jpg";
 import { useState, useEffect, useRef } from "react";
 import { askAI } from "../../services/api"; // ✅ use API service
 
+const renderTextWithLinks = (text) => {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  const emailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g;
+  
+  let parts = text.split(urlRegex);
+  for (let i = 1; i < parts.length; i += 2) {
+    parts[i] = <a key={'url-'+i} href={parts[i]} target="_blank" rel="noreferrer" style={{color: '#2563eb', textDecoration: 'underline'}}>{parts[i]}</a>;
+  }
+  
+  parts = parts.flatMap((part, idx) => {
+    if (typeof part === 'string') {
+      const emailParts = part.split(emailRegex);
+      for (let j = 1; j < emailParts.length; j += 2) {
+        emailParts[j] = <a key={'email-'+idx+'-'+j} href={`mailto:${emailParts[j]}`} style={{color: '#2563eb', textDecoration: 'underline'}}>{emailParts[j]}</a>;
+      }
+      return emailParts;
+    }
+    return part;
+  });
+
+  return parts;
+};
+
 function Hero() {
   const [question, setQuestion] = useState("");
   const [displayedAnswer, setDisplayedAnswer] = useState("");
@@ -27,7 +50,8 @@ function Hero() {
 
     let i = 0;
     typingIntervalRef.current = setInterval(() => {
-      setDisplayedAnswer(prev => prev + fullText.charAt(i));
+      const char = fullText.charAt(i); // Capture character synchronously
+      setDisplayedAnswer(prev => prev + char);
       i++;
       if (i >= fullText.length) {
         clearInterval(typingIntervalRef.current);
@@ -86,8 +110,6 @@ function Hero() {
     fade();
 
     const handleMouseMove = (e) => {
-      const overUI = e.target.closest(".hero-content");
-      if (overUI) return;
       drawBlob(e.clientX, e.clientY);
     };
 
@@ -107,7 +129,7 @@ function Hero() {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-name">Hey, I am Prajwal K M</h1>
-          <h1 className="hero-role">Full Stack Developer</h1>
+          <h1 className="hero-role">Backend Engineer | DevOps Enthusiast</h1>
         </div>
 
         <div className="hero-image">
@@ -120,7 +142,7 @@ function Hero() {
             <span>Me</span>
           </div>
 
-          <div className="hero-box" onClick={() => handleAsk("Tell me about your projects")}>
+          <div className="hero-box" onClick={() => handleAsk("What projects have you worked on?")}>
             <span className="emoji-slot">💼</span>
             <span>Projects</span>
           </div>
@@ -136,8 +158,13 @@ function Hero() {
           </div>
 
           <a href="/resume.pdf" target="_blank" rel="noreferrer" className="hero-box">
-             <span className="emoji-slot">📄</span>
-             <span>Resume</span>
+             <span className="emoji-slot">👁️</span>
+             <span>View Resume</span>
+          </a>
+
+          <a href="/resume.pdf" download="Prajwal_KM_Resume.pdf" className="hero-box">
+             <span className="emoji-slot">📥</span>
+             <span>Download Resume</span>
           </a>
         </div>
 
@@ -163,7 +190,7 @@ function Hero() {
 
           {displayedAnswer && (
             <div className="chat-answer">
-              {displayedAnswer}
+              {renderTextWithLinks(displayedAnswer)}
             </div>
           )}
         </div>

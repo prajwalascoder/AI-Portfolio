@@ -1,8 +1,15 @@
 {
-  "earlyJourney": "I got into tech out of curiosity about how apps and websites actually work. I was always more interested in building than just studying theory.",
-  "learningPhase": "I started with frontend and learned React during my internship at Scontinent Technologies, which gave me confidence in real-world development.",
-  "growthPhase": "At Bizpel, I moved into full stack work, handling both frontend and backend and understanding how complete systems are built.",
-  "projectMindset": "I like working on projects that solve real problems. HiveFund reflects my interest in trust, fairness, and intelligent systems.",
-  "currentFocus": "I am currently improving my full stack skills, learning more about AI/ML, and building projects with real impact.",
-  "values": ["Learning by doing", "Honesty", "Impact over hype", "Quality over shortcuts"]
+  "earlyJourney": "My interest in technology started with curiosity about how software works behind the scenes. I began by learning web development and gradually became more interested in backend systems, cloud infrastructure, and the engineering that powers modern applications.",
+  "learningPhase": "I built my frontend foundation during my internship at Scotinent Technologies, where I worked with React.js, REST APIs, and collaborative development practices.",
+  "growthPhase": "At Bizpel Connecting Dots Pvt. Ltd., I transitioned into backend engineering, developing REST APIs, authentication systems, media management, and backend services for BizArt while gaining hands-on experience with production software development.",
+  "projectMindset": "I enjoy building projects that solve practical engineering problems and help me understand how production systems are designed, deployed, and maintained. My projects focus on backend architecture, cloud technologies, and developer tooling.",
+  "currentFocus": "I am currently focused on backend engineering, DevOps, cloud computing, distributed systems, and building InfraPilot, a platform aimed at simplifying application deployment, monitoring, and infrastructure management.",
+  "values": [
+    "Learning by building",
+    "Continuous improvement",
+    "Practical engineering",
+    "Clean and maintainable software",
+    "Automation over repetition",
+    "Building products with real-world impact"
+  ]
 }

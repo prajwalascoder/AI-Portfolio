@@ -1,30 +1,49 @@
 {
   "internships": [
     {
-      "company": "Scontinent Technologies",
+      "company": "Scotinent Technologies Pvt. Ltd.",
       "role": "Frontend Developer Intern",
+      "duration": "February 2024 - May 2024",
       "status": "Completed",
-      "description": "Focused on frontend development using React.",
+      "description": "Worked on frontend development using React.js for web applications.",
       "responsibilities": [
-        "Built UI components using React",
-        "Created responsive layouts",
-        "Worked with APIs for frontend integration"
+        "Developed responsive user interfaces using React.js",
+        "Integrated REST APIs with frontend components",
+        "Built reusable UI components",
+        "Collaborated with the team using Git workflows"
       ],
-      "learning": "This is where I learned React and developed strong frontend fundamentals."
+      "learning": "Built a strong foundation in React.js, component-based development, API integration, and collaborative software development."
     },
     {
       "company": "Bizpel Connecting Dots Pvt. Ltd.",
       "role": "Full Stack Developer Intern",
-      "status": "Currently Working",
-      "description": "Working on both frontend and backend systems for production-style applications.",
+      "duration": "February 2026 - May 2026",
+      "status": "Completed",
+      "description": "Contributed to the development of BizArt by working on backend APIs and application features under the guidance of senior engineers.",
       "responsibilities": [
-        "Developing frontend features",
-        "Building backend APIs",
-        "Working with databases",
-        "Optimizing application logic"
+        "Assisted in developing REST APIs using Node.js, Express.js, and MongoDB",
+        "Implemented backend features and resolved application bugs",
+        "Worked with JWT authentication and MongoDB",
+        "Participated in API integration, testing, and code reviews",
+        "Worked in an Agile development environment"
       ],
-      "learning": "I am learning complete end-to-end application development, including architecture and data handling."
+      "learning": "Gained hands-on experience in backend development, REST APIs, authentication, database design, Git workflows, and collaborative software engineering."
+    },
+    {
+      "company": "Bizpel Connecting Dots Pvt. Ltd.",
+      "role": "Associate Software Engineer",
+      "duration": "June 2026 - Present",
+      "status": "Current",
+      "description": "Developing backend services for BizArt, a creator platform with messaging, portfolios, media management, and marketplace functionality.",
+      "responsibilities": [
+        "Developing REST APIs using Node.js, TypeScript, Express.js, and MongoDB",
+        "Implementing JWT-based authentication and authorization",
+        "Building media upload, notification, and user management APIs",
+        "Integrating backend services with React Native applications",
+        "Assisting with backend architecture and cloud deployment activities"
+      ],
+      "learning": "Expanding expertise in backend architecture, scalable API development, cloud deployment, and production software engineering."
     }
   ],
-  "overallExperience": "Hands-on experience in frontend and full stack development through real-world internships."
+  "overallExperience": "Professional experience in frontend, backend, and full-stack development through internships and a full-time backend engineering role, with a focus on Node.js, TypeScript, Express.js, MongoDB, cloud technologies, and DevOps."
 }
